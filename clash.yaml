@@ -9,103 +9,7 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
 proxies:
-- name: '[0.87MB/s][353ms] [zhuhaiuk#160] SG - zhuhai.uk 07'
-  type: trojan
-  server: composed-sheep.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.82MB/s][388ms] [zhuhaiuk#180] SG - zhuhai.uk 15'
-  type: trojan
-  server: immense-eagle.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.81MB/s][354ms] [zhuhaiuk#151] SG - zhuhai.uk 03'
-  type: trojan
-  server: exotic-turtle.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.8MB/s][343ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
-  type: trojan
-  server: right-mastiff.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.79MB/s][357ms] [zhuhaiuk#178] SG - zhuhai.uk 33'
-  type: trojan
-  server: apparent-wasp.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.78MB/s][344ms] [zhuhaiuk#187] SG - zhuhai.uk 08'
-  type: trojan
-  server: vast-werewolf.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.78MB/s][407ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
-  type: trojan
-  server: in-mongrel.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.75MB/s][332ms] [zhuhaiuk#165] SG - zhuhai.uk 23'
-  type: trojan
-  server: cunning-midge.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.75MB/s][403ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
-  type: trojan
-  server: pleased-albacore.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.7MB/s][347ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
-  type: trojan
-  server: infinite-anteater.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.68MB/s][346ms] [zhuhaiuk#158] SG - zhuhai.uk 26'
-  type: trojan
-  server: fleet-pony.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.68MB/s][347ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
-  type: trojan
-  server: casual-emu.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.66MB/s][300ms] [zhuhaiuk#177] SG - zhuhai.uk 38'
-  type: trojan
-  server: sharp-feline.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.66MB/s][363ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
-  type: trojan
-  server: sweeping-dog.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.65MB/s][377ms] [zhuhaiuk#144] SG - zhuhai.uk 42'
-  type: trojan
-  server: amusing-grub.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.61MB/s][377ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
-  type: trojan
-  server: pleased-raptor.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.56MB/s][537ms] 🇺🇸 美国 | USA 2'
+- name: '[0.43MB/s][604ms] 🇺🇸 美国 | USA 2'
   server: 45.62.118.37
   port: 50159
   type: vless
@@ -119,19 +23,15 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: '[0.43MB/s][277ms] [zhuhaiuk#166] SG - zhuhai.uk 22'
-  type: trojan
-  server: welcome-monitor.rooster465.autos
-  port: 443
-  password: PQ05174892
+- name: '[0.32MB/s][156ms] [free18#070] 🇨🇳_中国_95'
+  type: vless
+  server: 120.227.1.43
+  port: 12528
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+  tls: false
+  skip-cert-verify: true
   udp: true
-- name: '[0.43MB/s][287ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
-  type: trojan
-  server: excited-alien.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.41MB/s][317ms] 🇸🇬 新加坡 | SGP 4'
+- name: '[0.28MB/s][299ms] 🇸🇬 新加坡 | SGP 4'
   server: 125.77.20.210
   port: 13565
   type: vless
@@ -141,470 +41,232 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: '[0.37MB/s][273ms] [zhuhaiuk#147] SG - zhuhai.uk 09'
-  type: trojan
-  server: intense-sole.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.35MB/s][298ms] [zhuhaiuk#188] SG - zhuhai.uk 02'
-  type: trojan
-  server: stable-python.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.29MB/s][298ms] [zhuhaiuk#170] SG - zhuhai.uk 12'
-  type: trojan
-  server: musical-terrier.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[0.16MB/s][329ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+- name: '[0.15MB/s][809ms] 🇪🇪 爱沙尼亚 | EST'
+  server: 5.175.178.43
+  port: 2053
+  type: vless
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
   tls: true
-  type: http
-- name: '[0.13MB/s][561ms] [NoMoreWalls#134] 🇺🇸US_6|1.4MB/s'
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  servername: ee-t3.vinnypuxtomoon.today
+  client-fingerprint: firefox
   network: tcp
-  port: 52683
-  server: jp.sofast.live
-  type: vless
   udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  xudp: true
-- name: '[0.12MB/s][551ms] [freeSub#134] 🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
+- name: '[0.15MB/s][1770ms] 🇭🇰 香港 | HKG 3'
+  server: 95.40.100.129
+  port: 10126
+  type: vless
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
   tls: true
-  type: http
-  username: null
-- name: '[0.07MB/s][464ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  password: '123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- name: '[0.03MB/s][220ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: '[0.01MB/s][212ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  password: '111'
-  port: 11211
-  server: 47.243.173.50
-  skip-cert-verify: true
-  type: socks5
-  username: '111'
-- name: '[0.01MB/s][237ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  password: '123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: '[0.01MB/s][290ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
-- name: '[166ms] [free18#070] 🇨🇳_中国_95'
-  type: vless
-  server: 120.227.1.43
-  port: 12528
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: '[327ms] [zhuhaiuk#155] SG - zhuhai.uk 04'
-  type: trojan
-  server: pro-mako.rooster465.autos
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  servername: s0.awsstatic.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+- cipher: aes-256-cfb
+  name: '[0.1MB/s][466ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: amazonskr05
   port: 443
-  password: PQ05174892
+  server: 15.237.189.197
+  type: ss
   udp: true
-- name: '[336ms] [zhuhaiuk#148] SG - zhuhai.uk 20'
-  type: trojan
-  server: tops-owl.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[341ms] [zhuhaiuk#183] SG - zhuhai.uk 18'
-  type: trojan
-  server: sharing-filly.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[346ms] [zhuhaiuk#152] SG - zhuhai.uk 10'
-  type: trojan
-  server: allowing-ram.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[355ms] [zhuhaiuk#153] SG - zhuhai.uk 24'
-  type: trojan
-  server: lenient-grubworm.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[371ms] [zhuhaiuk#156] SG - zhuhai.uk 14'
-  type: trojan
-  server: intense-monarch.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[386ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
-  type: trojan
-  server: next-jaybird.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[563ms] [zhuhaiuk#009] SG - zhuhai.uk'
+- name: '[0.09MB/s][558ms] [zhuhaiuk#009] SG - zhuhai.uk'
   type: ss
   server: 138.2.100.236
   port: 56927
   cipher: 2022-blake3-chacha20-poly1305
   password: WTx1q4oF6zbO8Lchb/wE4/83ZI/RP2r6yS91a+YRU1Y=
-- name: '[571ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
+- name: '[0.06MB/s][421ms] [freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- name: '[0.05MB/s][400ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
   port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
   tls: true
   type: http
-  username: null
-- name: '[581ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: '[590ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+- name: '[0.05MB/s][571ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: '[638ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
-  type: trojan
-  server: amazed-burro.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[642ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
-  type: trojan
-  server: humorous-starling.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[647ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
-  type: trojan
-  server: sterling-vervet.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[660ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
+- name: '[0.04MB/s][169ms] [freeSub#280] 🟢🇨🇳_github.com/Ruk1ng001_9'
   password: null
-  port: 8888
-  server: 95.211.64.139
+  port: 8080
+  server: 112.64.135.45
   type: http
   username: null
-- name: '[666ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
-  type: trojan
-  server: fair-reptile.rooster465.autos
+- name: '[0.04MB/s][882ms] 🇺🇸 美国 | USA 36'
+  server: 169.40.42.90
   port: 443
-  password: PQ05174892
-  udp: true
-- name: '[671ms] [zhuhaiuk#049] JP - zhuhai.uk 42'
-  type: trojan
-  server: picked-hippo.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[678ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
-  type: trojan
-  server: musical-mouse.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[679ms] [NoMoreWalls#130] 🇭🇰HK_1|2.8MB/s'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-- name: '[683ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
-  type: trojan
-  server: robust-toucan.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[685ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
-  type: trojan
-  server: unbiased-coyote.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[687ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: qGwNSnw1
-  port: 64218
-  server: 200.225.173.142
-  type: http
-  username: ZJWRqQLE
-- name: '[692ms] [freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: qGwNSnw1
-  port: 63124
-  server: 45.195.184.106
-  type: http
-  username: ZJWRqQLE
-- name: '[692ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
-- name: '[692ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
-  type: trojan
-  server: prime-quail.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[700ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
-  type: trojan
-  server: logical-ram.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[701ms] [zhuhaiuk#097] JP - zhuhai.uk 49'
-  type: trojan
-  server: free-tuna.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[702ms] [zhuhaiuk#066] JP - zhuhai.uk 15'
-  type: trojan
-  server: famous-opossum.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[703ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
-  type: trojan
-  server: modest-amoeba.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[703ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
-  type: trojan
-  server: flexible-titmouse.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[704ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
-  type: trojan
-  server: aware-puma.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[706ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
-  type: trojan
-  server: inspired-hound.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[709ms] [zhuhaiuk#086] JP - zhuhai.uk 17'
-  type: trojan
-  server: merry-falcon.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[714ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
-  type: trojan
-  server: key-sponge.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[717ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
-  type: trojan
-  server: proud-escargot.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[717ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
-  type: trojan
-  server: ethical-raccoon.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[729ms] [zhuhaiuk#035] JP - zhuhai.uk 70'
-  type: trojan
-  server: champion-alien.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[729ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
-  type: trojan
-  server: together-amoeba.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[732ms] [freeSub#456] 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   tls: true
-  type: http
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+  network: tcp
   udp: true
-  username: test
-- name: '[737ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
+- name: '[0.04MB/s][1459ms] 🇩🇪 德国 | DEU'
+  server: 50.7.90.188
+  port: 2053
+  type: vless
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  servername: de-t2.vinnypuxtomoon.today
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '[0.03MB/s][476ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  password: '123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
+- name: '[0.03MB/s][619ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
   type: trojan
   server: excited-squirrel.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[757ms] [zhuhaiuk#021] JP - zhuhai.uk'
-  type: vless
-  server: 202.144.192.76
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  servername: tesla.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-- name: '[759ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  xudp: true
-- name: '[765ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
-  type: trojan
-  server: moved-weasel.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[766ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
-  type: trojan
-  server: lucky-albacore.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[767ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
-  type: trojan
-  server: engaged-antelope.rooster465.autos
-  port: 443
-  password: PQ05174892
-  udp: true
-- name: '[768ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[771ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+- name: '[0.02MB/s][208ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- name: '[0.02MB/s][403ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
   password: null
-  port: 8889
-  server: 95.211.64.139
-  type: http
-  username: null
-- name: '[779ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
   udp: true
-- name: '[788ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  username: null
+- name: '[0.02MB/s][541ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
   password: null
   port: 10808
   server: 101.36.104.239
   type: socks5
   udp: true
   username: null
-- name: '[791ms] [freeSub#173] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[793ms] [freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[797ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
+- name: '[0.02MB/s][635ms] [zhuhaiuk#063] JP - zhuhai.uk 54'
   type: trojan
-  server: awake-redbird.rooster465.autos
+  server: brief-flamingo.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[798ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
+- name: '[0.02MB/s][671ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
   type: trojan
-  server: casual-quail.rooster465.autos
+  server: aware-puma.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[805ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
+- name: '[0.02MB/s][673ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
   type: trojan
-  server: fine-elf.rooster465.autos
+  server: flexible-titmouse.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[807ms] [zhuhaiuk#114] KR - zhuhai.uk 20'
+- name: '[0.02MB/s][683ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
   type: trojan
-  server: game-ant.rooster465.autos
+  server: sterling-vervet.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[810ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+- name: '[0.02MB/s][683ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
+  type: trojan
+  server: ethical-raccoon.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[0.01MB/s][624ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
+  type: trojan
+  server: robust-toucan.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[0.01MB/s][663ms] [zhuhaiuk#087] JP - zhuhai.uk 46'
+  type: trojan
+  server: pumped-clam.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[0.01MB/s][678ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
   password: null
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
+  port: 8888
+  server: 95.211.64.139
   type: http
   username: null
-- name: '[814ms] [zhuhaiuk#023] US - zhuhai.uk 01'
+- name: '[0.01MB/s][697ms] [zhuhaiuk#039] JP - zhuhai.uk 25'
   type: trojan
-  server: sure-bengal.rooster465.autos
+  server: mighty-lemming.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
-- name: '[818ms] [freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+- name: '[0.01MB/s][1553ms] 🇸🇬 新加坡 | SGP 6'
+  server: 154.196.139.50
+  port: 443
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   tls: true
-  type: http
-  username: null
-- name: '[823ms] [freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  servername: asia.cendora.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '[0.01MB/s][1854ms] 🇪🇪 爱沙尼亚 | EST 2'
+  server: ee-t3.vinnypuxtomoon.today
+  port: 2053
+  type: vless
+  uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
   tls: true
-  type: http
-  username: null
-- name: '[824ms] 🇺🇸 美国 | USA 29'
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
+    short-id: c0d1d1776fed0f6d
+  servername: ee-t3.vinnypuxtomoon.today
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '[0.01MB/s][1913ms] 未知 VLESS-532 | free-nodes'
+  server: 45.151.30.127
+  port: 9873
+  type: vless
+  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+- name: '[0.01MB/s][3233ms] 🇺🇸 美国 | USA 29'
   server: 154.17.4.70
   port: 13779
   type: vless
@@ -617,23 +279,346 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: '[825ms] [freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
+- name: '[0.0MB/s][192ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
+- name: '[0.0MB/s][210ms] [freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
+  password: '8888'
+  port: 1080
+  server: 8.210.31.250
+  type: socks5
+  username: '8888'
+- name: '[0.0MB/s][212ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- name: '[0.0MB/s][236ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  password: '123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- name: '[0.0MB/s][237ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  password: '111'
+  port: 11211
+  server: 47.243.173.50
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
+- name: '[0.0MB/s][684ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
+  type: trojan
+  server: fair-reptile.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[0.0MB/s][694ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
+  type: trojan
+  server: inspired-hound.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[0.0MB/s][2497ms] 🇳🇱 荷兰 | NLD 5'
+  server: 144.31.134.196
+  port: 443
+  type: vless
+  uuid: 7b8a65b9-e074-4dcf-ab4f-5ffb5197d974
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: twXgIi2sFEo2xqWtEwVi1gmD4XRBBjuJHWh4AzOs-TA
+    short-id: abcd1234
+  servername: dzen.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '[677ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
+  type: trojan
+  server: lucky-albacore.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[697ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
+  type: trojan
+  server: unbiased-coyote.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[698ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
+  type: trojan
+  server: proud-escargot.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[699ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
+  type: trojan
+  server: modest-amoeba.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[701ms] [zhuhaiuk#097] JP - zhuhai.uk 49'
+  type: trojan
+  server: free-tuna.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[704ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
+  type: trojan
+  server: engaged-antelope.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[706ms] [zhuhaiuk#051] JP - zhuhai.uk 22'
+  type: trojan
+  server: thorough-elf.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[712ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
+  type: trojan
+  server: musical-mouse.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: '[715ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: '[715ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
+  type: trojan
+  server: together-amoeba.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[716ms] [zhuhaiuk#089] JP - zhuhai.uk 29'
+  type: trojan
+  server: open-caribou.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[719ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
+  type: trojan
+  server: amazed-burro.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[723ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ESfDSCxpD
+  port: 64462
+  server: 154.219.254.66
+  type: http
+  username: n17sMRE7S
+- name: '[724ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
+  type: trojan
+  server: prime-quail.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[724ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
+  type: trojan
+  server: logical-ram.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[724ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
+  type: trojan
+  server: moved-weasel.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[731ms] [zhuhaiuk#044] JP - zhuhai.uk 65'
+  type: trojan
+  server: smooth-cougar.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[736ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
+  type: trojan
+  server: key-sponge.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[742ms] [zhuhaiuk#064] JP - zhuhai.uk 40'
+  type: trojan
+  server: concise-guinea.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[749ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
+  type: trojan
+  server: fine-elf.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[751ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
+  type: trojan
+  server: next-jaybird.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[754ms] [zhuhaiuk#136] KR - zhuhai.uk 10'
+  type: trojan
+  server: careful-cow.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[756ms] [zhuhaiuk#126] KR - zhuhai.uk 22'
+  type: trojan
+  server: united-grouse.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[758ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
+  type: trojan
+  server: excited-alien.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[761ms] [zhuhaiuk#028] JP - zhuhai.uk 16'
+  type: trojan
+  server: glorious-hamster.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[763ms] [zhuhaiuk#134] KR - zhuhai.uk 13'
+  type: trojan
+  server: renewing-leopard.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[769ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
+  type: trojan
+  server: right-mastiff.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[769ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
+  type: trojan
+  server: pleased-albacore.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[770ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[827ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: 'null'
+- name: '[770ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
+  type: trojan
+  server: humorous-starling.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- alterId: '2'
+  cipher: auto
+  name: '[775ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '[778ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
+  type: trojan
+  server: casual-quail.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[782ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
+  type: trojan
+  server: pleased-raptor.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[793ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
+  type: trojan
+  server: casual-emu.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[795ms] [freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: '[827ms] [free18#170] 🇺🇸_美国_321'
+  udp: true
+- name: '[796ms] [free18#068] 🇩🇪_德国_87'
+  type: vless
+  server: 169.40.42.89
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[797ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[797ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
+  type: trojan
+  server: infinite-anteater.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[798ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
+  type: trojan
+  server: in-mongrel.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[799ms] [zhuhaiuk#023] US - zhuhai.uk 01'
+  type: trojan
+  server: sure-bengal.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[802ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: qGwNSnw1
+  port: 62768
+  server: 141.133.8.173
+  type: http
+  username: ZJWRqQLE
+- name: '[803ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[805ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[805ms] [free18#170] 🇺🇸_美国_321'
   type: vless
   server: 200.165.228.51
   port: 2200
@@ -645,9 +630,53 @@ proxies:
     path: /v1
   skip-cert-verify: true
   udp: true
-- name: '[833ms] [zhuhaiuk#107] NL - zhuhai.uk 03'
+- name: '[806ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[808ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
   type: trojan
-  server: powerful-squid.rooster465.autos
+  server: awake-redbird.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[810ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[812ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[814ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  type: vless
+  udp: true
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  xudp: true
+- name: '[817ms] [zhuhaiuk#129] KR - zhuhai.uk 15'
+  type: trojan
+  server: rare-lion.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[829ms] [zhuhaiuk#099] NL - zhuhai.uk 01'
+  type: trojan
+  server: casual-bullfrog.rooster465.autos
   port: 443
   password: PQ05174892
   udp: true
@@ -660,242 +689,273 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[835ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
+- name: '[836ms] [zhuhaiuk#108] DE - zhuhai.uk 07'
+  type: trojan
+  server: alert-fish.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[843ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: '[847ms] [free18#007] 🇩🇪_德国_8'
-  type: vless
-  server: 169.40.42.35
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
-  udp: true
-- name: '[848ms] [zhuhaiuk#113] KR - zhuhai.uk 25'
+  username: 'null'
+- name: '[844ms] [zhuhaiuk#130] KR - zhuhai.uk 18'
   type: trojan
-  server: regular-raptor.rooster465.autos
+  server: sensible-barnacle.rooster465.autos
   port: 443
   password: PQ05174892
+  udp: true
+- name: '[845ms] [zhuhaiuk#189] HK - zhuhai.uk 05'
+  type: trojan
+  server: well-marmot.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[846ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[846ms] [zhuhaiuk#011] HU - zhuhai.uk'
+  type: ss
+  server: 217.70.14.216
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 48UQWJVetDr7ETiOXF+aEQ==
+- name: '[849ms] [zhuhaiuk#105] FR - zhuhai.uk 05'
+  type: trojan
+  server: lucky-marmot.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[849ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
+  type: trojan
+  server: sweeping-dog.rooster465.autos
+  port: 443
+  password: PQ05174892
+  udp: true
+- name: '[851ms] [freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - '[0.87MB/s][353ms] [zhuhaiuk#160] SG - zhuhai.uk 07'
-  - '[0.82MB/s][388ms] [zhuhaiuk#180] SG - zhuhai.uk 15'
-  - '[0.81MB/s][354ms] [zhuhaiuk#151] SG - zhuhai.uk 03'
-  - '[0.8MB/s][343ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
-  - '[0.79MB/s][357ms] [zhuhaiuk#178] SG - zhuhai.uk 33'
-  - '[0.78MB/s][344ms] [zhuhaiuk#187] SG - zhuhai.uk 08'
-  - '[0.78MB/s][407ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
-  - '[0.75MB/s][332ms] [zhuhaiuk#165] SG - zhuhai.uk 23'
-  - '[0.75MB/s][403ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
-  - '[0.7MB/s][347ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
-  - '[0.68MB/s][346ms] [zhuhaiuk#158] SG - zhuhai.uk 26'
-  - '[0.68MB/s][347ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
-  - '[0.66MB/s][300ms] [zhuhaiuk#177] SG - zhuhai.uk 38'
-  - '[0.66MB/s][363ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
-  - '[0.65MB/s][377ms] [zhuhaiuk#144] SG - zhuhai.uk 42'
-  - '[0.61MB/s][377ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
-  - '[0.56MB/s][537ms] 🇺🇸 美国 | USA 2'
-  - '[0.43MB/s][277ms] [zhuhaiuk#166] SG - zhuhai.uk 22'
-  - '[0.43MB/s][287ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
-  - '[0.41MB/s][317ms] 🇸🇬 新加坡 | SGP 4'
-  - '[0.37MB/s][273ms] [zhuhaiuk#147] SG - zhuhai.uk 09'
-  - '[0.35MB/s][298ms] [zhuhaiuk#188] SG - zhuhai.uk 02'
-  - '[0.29MB/s][298ms] [zhuhaiuk#170] SG - zhuhai.uk 12'
-  - '[0.16MB/s][329ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
-  - '[0.13MB/s][561ms] [NoMoreWalls#134] 🇺🇸US_6|1.4MB/s'
-  - '[0.12MB/s][551ms] [freeSub#134] 🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  - '[0.07MB/s][464ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[0.03MB/s][220ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
-  - '[0.01MB/s][212ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[0.01MB/s][237ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[0.01MB/s][290ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  - '[166ms] [free18#070] 🇨🇳_中国_95'
-  - '[327ms] [zhuhaiuk#155] SG - zhuhai.uk 04'
-  - '[336ms] [zhuhaiuk#148] SG - zhuhai.uk 20'
-  - '[341ms] [zhuhaiuk#183] SG - zhuhai.uk 18'
-  - '[346ms] [zhuhaiuk#152] SG - zhuhai.uk 10'
-  - '[355ms] [zhuhaiuk#153] SG - zhuhai.uk 24'
-  - '[371ms] [zhuhaiuk#156] SG - zhuhai.uk 14'
-  - '[386ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
-  - '[563ms] [zhuhaiuk#009] SG - zhuhai.uk'
-  - '[571ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[581ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[590ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[638ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
-  - '[642ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
-  - '[647ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
-  - '[660ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
-  - '[666ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
-  - '[671ms] [zhuhaiuk#049] JP - zhuhai.uk 42'
-  - '[678ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
-  - '[679ms] [NoMoreWalls#130] 🇭🇰HK_1|2.8MB/s'
-  - '[683ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
-  - '[685ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
-  - '[687ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
-  - '[700ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
+  - '[0.43MB/s][604ms] 🇺🇸 美国 | USA 2'
+  - '[0.32MB/s][156ms] [free18#070] 🇨🇳_中国_95'
+  - '[0.28MB/s][299ms] 🇸🇬 新加坡 | SGP 4'
+  - '[0.15MB/s][809ms] 🇪🇪 爱沙尼亚 | EST'
+  - '[0.15MB/s][1770ms] 🇭🇰 香港 | HKG 3'
+  - '[0.1MB/s][466ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[0.09MB/s][558ms] [zhuhaiuk#009] SG - zhuhai.uk'
+  - '[0.06MB/s][421ms] [freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.05MB/s][400ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[0.05MB/s][571ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[0.04MB/s][169ms] [freeSub#280] 🟢🇨🇳_github.com/Ruk1ng001_9'
+  - '[0.04MB/s][882ms] 🇺🇸 美国 | USA 36'
+  - '[0.04MB/s][1459ms] 🇩🇪 德国 | DEU'
+  - '[0.03MB/s][476ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.03MB/s][619ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
+  - '[0.02MB/s][208ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
+  - '[0.02MB/s][403ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
+  - '[0.02MB/s][541ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.02MB/s][635ms] [zhuhaiuk#063] JP - zhuhai.uk 54'
+  - '[0.02MB/s][671ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
+  - '[0.02MB/s][673ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
+  - '[0.02MB/s][683ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
+  - '[0.02MB/s][683ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
+  - '[0.01MB/s][624ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
+  - '[0.01MB/s][663ms] [zhuhaiuk#087] JP - zhuhai.uk 46'
+  - '[0.01MB/s][678ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
+  - '[0.01MB/s][697ms] [zhuhaiuk#039] JP - zhuhai.uk 25'
+  - '[0.01MB/s][1553ms] 🇸🇬 新加坡 | SGP 6'
+  - '[0.01MB/s][1854ms] 🇪🇪 爱沙尼亚 | EST 2'
+  - '[0.01MB/s][1913ms] 未知 VLESS-532 | free-nodes'
+  - '[0.01MB/s][3233ms] 🇺🇸 美国 | USA 29'
+  - '[0.0MB/s][192ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  - '[0.0MB/s][210ms] [freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
+  - '[0.0MB/s][212ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  - '[0.0MB/s][236ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[0.0MB/s][237ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[0.0MB/s][684ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
+  - '[0.0MB/s][694ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
+  - '[0.0MB/s][2497ms] 🇳🇱 荷兰 | NLD 5'
+  - '[677ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
+  - '[697ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
+  - '[698ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
+  - '[699ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
   - '[701ms] [zhuhaiuk#097] JP - zhuhai.uk 49'
-  - '[702ms] [zhuhaiuk#066] JP - zhuhai.uk 15'
-  - '[703ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
-  - '[703ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
-  - '[704ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
-  - '[706ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
-  - '[709ms] [zhuhaiuk#086] JP - zhuhai.uk 17'
-  - '[714ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
-  - '[717ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
-  - '[717ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
-  - '[729ms] [zhuhaiuk#035] JP - zhuhai.uk 70'
-  - '[729ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
-  - '[732ms] [freeSub#456] 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[737ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
-  - '[757ms] [zhuhaiuk#021] JP - zhuhai.uk'
-  - '[759ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
-  - '[765ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
-  - '[766ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
-  - '[767ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
-  - '[768ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[771ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[779ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[788ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[791ms] [freeSub#173] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[793ms] [freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[797ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
-  - '[798ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
-  - '[805ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
-  - '[807ms] [zhuhaiuk#114] KR - zhuhai.uk 20'
-  - '[810ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[814ms] [zhuhaiuk#023] US - zhuhai.uk 01'
-  - '[818ms] [freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[823ms] [freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[824ms] 🇺🇸 美国 | USA 29'
-  - '[825ms] [freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[827ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[827ms] [free18#170] 🇺🇸_美国_321'
-  - '[833ms] [zhuhaiuk#107] NL - zhuhai.uk 03'
+  - '[704ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
+  - '[706ms] [zhuhaiuk#051] JP - zhuhai.uk 22'
+  - '[712ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
+  - '[715ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  - '[715ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
+  - '[716ms] [zhuhaiuk#089] JP - zhuhai.uk 29'
+  - '[719ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
+  - '[723ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[724ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
+  - '[724ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
+  - '[724ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
+  - '[731ms] [zhuhaiuk#044] JP - zhuhai.uk 65'
+  - '[736ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
+  - '[742ms] [zhuhaiuk#064] JP - zhuhai.uk 40'
+  - '[749ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
+  - '[751ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
+  - '[754ms] [zhuhaiuk#136] KR - zhuhai.uk 10'
+  - '[756ms] [zhuhaiuk#126] KR - zhuhai.uk 22'
+  - '[758ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
+  - '[761ms] [zhuhaiuk#028] JP - zhuhai.uk 16'
+  - '[763ms] [zhuhaiuk#134] KR - zhuhai.uk 13'
+  - '[769ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
+  - '[769ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
+  - '[770ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[770ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
+  - '[775ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  - '[778ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
+  - '[782ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
+  - '[793ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
+  - '[795ms] [freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[796ms] [free18#068] 🇩🇪_德国_87'
+  - '[797ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[797ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
+  - '[798ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
+  - '[799ms] [zhuhaiuk#023] US - zhuhai.uk 01'
+  - '[802ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[803ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[805ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[805ms] [free18#170] 🇺🇸_美国_321'
+  - '[806ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[808ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
+  - '[810ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[812ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[814ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
+  - '[817ms] [zhuhaiuk#129] KR - zhuhai.uk 15'
+  - '[829ms] [zhuhaiuk#099] NL - zhuhai.uk 01'
   - '[834ms] [freeSub#156] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[835ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[847ms] [free18#007] 🇩🇪_德国_8'
-  - '[848ms] [zhuhaiuk#113] KR - zhuhai.uk 25'
+  - '[836ms] [zhuhaiuk#108] DE - zhuhai.uk 07'
+  - '[843ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[844ms] [zhuhaiuk#130] KR - zhuhai.uk 18'
+  - '[845ms] [zhuhaiuk#189] HK - zhuhai.uk 05'
+  - '[846ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[846ms] [zhuhaiuk#011] HU - zhuhai.uk'
+  - '[849ms] [zhuhaiuk#105] FR - zhuhai.uk 05'
+  - '[849ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
+  - '[851ms] [freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[0.87MB/s][353ms] [zhuhaiuk#160] SG - zhuhai.uk 07'
-  - '[0.82MB/s][388ms] [zhuhaiuk#180] SG - zhuhai.uk 15'
-  - '[0.81MB/s][354ms] [zhuhaiuk#151] SG - zhuhai.uk 03'
-  - '[0.8MB/s][343ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
-  - '[0.79MB/s][357ms] [zhuhaiuk#178] SG - zhuhai.uk 33'
-  - '[0.78MB/s][344ms] [zhuhaiuk#187] SG - zhuhai.uk 08'
-  - '[0.78MB/s][407ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
-  - '[0.75MB/s][332ms] [zhuhaiuk#165] SG - zhuhai.uk 23'
-  - '[0.75MB/s][403ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
-  - '[0.7MB/s][347ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
-  - '[0.68MB/s][346ms] [zhuhaiuk#158] SG - zhuhai.uk 26'
-  - '[0.68MB/s][347ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
-  - '[0.66MB/s][300ms] [zhuhaiuk#177] SG - zhuhai.uk 38'
-  - '[0.66MB/s][363ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
-  - '[0.65MB/s][377ms] [zhuhaiuk#144] SG - zhuhai.uk 42'
-  - '[0.61MB/s][377ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
-  - '[0.56MB/s][537ms] 🇺🇸 美国 | USA 2'
-  - '[0.43MB/s][277ms] [zhuhaiuk#166] SG - zhuhai.uk 22'
-  - '[0.43MB/s][287ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
-  - '[0.41MB/s][317ms] 🇸🇬 新加坡 | SGP 4'
-  - '[0.37MB/s][273ms] [zhuhaiuk#147] SG - zhuhai.uk 09'
-  - '[0.35MB/s][298ms] [zhuhaiuk#188] SG - zhuhai.uk 02'
-  - '[0.29MB/s][298ms] [zhuhaiuk#170] SG - zhuhai.uk 12'
-  - '[0.16MB/s][329ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
-  - '[0.13MB/s][561ms] [NoMoreWalls#134] 🇺🇸US_6|1.4MB/s'
-  - '[0.12MB/s][551ms] [freeSub#134] 🔴🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  - '[0.07MB/s][464ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[0.03MB/s][220ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
-  - '[0.01MB/s][212ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[0.01MB/s][237ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[0.01MB/s][290ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  - '[166ms] [free18#070] 🇨🇳_中国_95'
-  - '[327ms] [zhuhaiuk#155] SG - zhuhai.uk 04'
-  - '[336ms] [zhuhaiuk#148] SG - zhuhai.uk 20'
-  - '[341ms] [zhuhaiuk#183] SG - zhuhai.uk 18'
-  - '[346ms] [zhuhaiuk#152] SG - zhuhai.uk 10'
-  - '[355ms] [zhuhaiuk#153] SG - zhuhai.uk 24'
-  - '[371ms] [zhuhaiuk#156] SG - zhuhai.uk 14'
-  - '[386ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
-  - '[563ms] [zhuhaiuk#009] SG - zhuhai.uk'
-  - '[571ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[581ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[590ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[638ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
-  - '[642ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
-  - '[647ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
-  - '[660ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
-  - '[666ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
-  - '[671ms] [zhuhaiuk#049] JP - zhuhai.uk 42'
-  - '[678ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
-  - '[679ms] [NoMoreWalls#130] 🇭🇰HK_1|2.8MB/s'
-  - '[683ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
-  - '[685ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
-  - '[687ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[692ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
-  - '[700ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
+  - '[0.43MB/s][604ms] 🇺🇸 美国 | USA 2'
+  - '[0.32MB/s][156ms] [free18#070] 🇨🇳_中国_95'
+  - '[0.28MB/s][299ms] 🇸🇬 新加坡 | SGP 4'
+  - '[0.15MB/s][809ms] 🇪🇪 爱沙尼亚 | EST'
+  - '[0.15MB/s][1770ms] 🇭🇰 香港 | HKG 3'
+  - '[0.1MB/s][466ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[0.09MB/s][558ms] [zhuhaiuk#009] SG - zhuhai.uk'
+  - '[0.06MB/s][421ms] [freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.05MB/s][400ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[0.05MB/s][571ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[0.04MB/s][169ms] [freeSub#280] 🟢🇨🇳_github.com/Ruk1ng001_9'
+  - '[0.04MB/s][882ms] 🇺🇸 美国 | USA 36'
+  - '[0.04MB/s][1459ms] 🇩🇪 德国 | DEU'
+  - '[0.03MB/s][476ms] [freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.03MB/s][619ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
+  - '[0.02MB/s][208ms] [freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
+  - '[0.02MB/s][403ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
+  - '[0.02MB/s][541ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[0.02MB/s][635ms] [zhuhaiuk#063] JP - zhuhai.uk 54'
+  - '[0.02MB/s][671ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
+  - '[0.02MB/s][673ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
+  - '[0.02MB/s][683ms] [zhuhaiuk#033] JP - zhuhai.uk 51'
+  - '[0.02MB/s][683ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
+  - '[0.01MB/s][624ms] [zhuhaiuk#043] JP - zhuhai.uk 30'
+  - '[0.01MB/s][663ms] [zhuhaiuk#087] JP - zhuhai.uk 46'
+  - '[0.01MB/s][678ms] [freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
+  - '[0.01MB/s][697ms] [zhuhaiuk#039] JP - zhuhai.uk 25'
+  - '[0.01MB/s][1553ms] 🇸🇬 新加坡 | SGP 6'
+  - '[0.01MB/s][1854ms] 🇪🇪 爱沙尼亚 | EST 2'
+  - '[0.01MB/s][1913ms] 未知 VLESS-532 | free-nodes'
+  - '[0.01MB/s][3233ms] 🇺🇸 美国 | USA 29'
+  - '[0.0MB/s][192ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  - '[0.0MB/s][210ms] [freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
+  - '[0.0MB/s][212ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  - '[0.0MB/s][236ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[0.0MB/s][237ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[0.0MB/s][684ms] [zhuhaiuk#031] JP - zhuhai.uk 74'
+  - '[0.0MB/s][694ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
+  - '[0.0MB/s][2497ms] 🇳🇱 荷兰 | NLD 5'
+  - '[677ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
+  - '[697ms] [zhuhaiuk#093] JP - zhuhai.uk 07'
+  - '[698ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
+  - '[699ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
   - '[701ms] [zhuhaiuk#097] JP - zhuhai.uk 49'
-  - '[702ms] [zhuhaiuk#066] JP - zhuhai.uk 15'
-  - '[703ms] [zhuhaiuk#050] JP - zhuhai.uk 23'
-  - '[703ms] [zhuhaiuk#075] JP - zhuhai.uk 09'
-  - '[704ms] [zhuhaiuk#061] JP - zhuhai.uk 14'
-  - '[706ms] [zhuhaiuk#059] JP - zhuhai.uk 55'
-  - '[709ms] [zhuhaiuk#086] JP - zhuhai.uk 17'
-  - '[714ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
-  - '[717ms] [zhuhaiuk#032] JP - zhuhai.uk 75'
-  - '[717ms] [zhuhaiuk#058] JP - zhuhai.uk 52'
-  - '[729ms] [zhuhaiuk#035] JP - zhuhai.uk 70'
-  - '[729ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
-  - '[732ms] [freeSub#456] 🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[737ms] [zhuhaiuk#065] JP - zhuhai.uk 24'
-  - '[757ms] [zhuhaiuk#021] JP - zhuhai.uk'
-  - '[759ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
-  - '[765ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
-  - '[766ms] [zhuhaiuk#062] JP - zhuhai.uk 67'
-  - '[767ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
-  - '[768ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[771ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[779ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[788ms] [freeSub#085] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[791ms] [freeSub#173] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[793ms] [freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[797ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
-  - '[798ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
-  - '[805ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
-  - '[807ms] [zhuhaiuk#114] KR - zhuhai.uk 20'
-  - '[810ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[814ms] [zhuhaiuk#023] US - zhuhai.uk 01'
-  - '[818ms] [freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[823ms] [freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[824ms] 🇺🇸 美国 | USA 29'
-  - '[825ms] [freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[827ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[827ms] [free18#170] 🇺🇸_美国_321'
-  - '[833ms] [zhuhaiuk#107] NL - zhuhai.uk 03'
+  - '[704ms] [zhuhaiuk#095] JP - zhuhai.uk 71'
+  - '[706ms] [zhuhaiuk#051] JP - zhuhai.uk 22'
+  - '[712ms] [zhuhaiuk#074] JP - zhuhai.uk 03'
+  - '[715ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  - '[715ms] [zhuhaiuk#054] JP - zhuhai.uk 12'
+  - '[716ms] [zhuhaiuk#089] JP - zhuhai.uk 29'
+  - '[719ms] [zhuhaiuk#030] JP - zhuhai.uk 73'
+  - '[723ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[724ms] [zhuhaiuk#024] JP - zhuhai.uk 59'
+  - '[724ms] [zhuhaiuk#041] JP - zhuhai.uk 32'
+  - '[724ms] [zhuhaiuk#090] JP - zhuhai.uk 68'
+  - '[731ms] [zhuhaiuk#044] JP - zhuhai.uk 65'
+  - '[736ms] [zhuhaiuk#072] JP - zhuhai.uk 61'
+  - '[742ms] [zhuhaiuk#064] JP - zhuhai.uk 40'
+  - '[749ms] [zhuhaiuk#104] DE - zhuhai.uk 01'
+  - '[751ms] [zhuhaiuk#179] SG - zhuhai.uk 05'
+  - '[754ms] [zhuhaiuk#136] KR - zhuhai.uk 10'
+  - '[756ms] [zhuhaiuk#126] KR - zhuhai.uk 22'
+  - '[758ms] [zhuhaiuk#154] SG - zhuhai.uk 16'
+  - '[761ms] [zhuhaiuk#028] JP - zhuhai.uk 16'
+  - '[763ms] [zhuhaiuk#134] KR - zhuhai.uk 13'
+  - '[769ms] [zhuhaiuk#159] SG - zhuhai.uk 32'
+  - '[769ms] [zhuhaiuk#172] SG - zhuhai.uk 01'
+  - '[770ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[770ms] [zhuhaiuk#055] JP - zhuhai.uk 63'
+  - '[775ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  - '[778ms] [zhuhaiuk#109] DE - zhuhai.uk 06'
+  - '[782ms] [zhuhaiuk#171] SG - zhuhai.uk 34'
+  - '[793ms] [zhuhaiuk#169] SG - zhuhai.uk 19'
+  - '[795ms] [freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[796ms] [free18#068] 🇩🇪_德国_87'
+  - '[797ms] [freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[797ms] [zhuhaiuk#181] SG - zhuhai.uk 13'
+  - '[798ms] [zhuhaiuk#167] SG - zhuhai.uk 11'
+  - '[799ms] [zhuhaiuk#023] US - zhuhai.uk 01'
+  - '[802ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[803ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[805ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[805ms] [free18#170] 🇺🇸_美国_321'
+  - '[806ms] [freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[808ms] [zhuhaiuk#132] KR - zhuhai.uk 11'
+  - '[810ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[812ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[814ms] [NoMoreWalls#133] 🇺🇸US_5|1.5MB/s'
+  - '[817ms] [zhuhaiuk#129] KR - zhuhai.uk 15'
+  - '[829ms] [zhuhaiuk#099] NL - zhuhai.uk 01'
   - '[834ms] [freeSub#156] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[835ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[847ms] [free18#007] 🇩🇪_德国_8'
-  - '[848ms] [zhuhaiuk#113] KR - zhuhai.uk 25'
+  - '[836ms] [zhuhaiuk#108] DE - zhuhai.uk 07'
+  - '[843ms] [freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[844ms] [zhuhaiuk#130] KR - zhuhai.uk 18'
+  - '[845ms] [zhuhaiuk#189] HK - zhuhai.uk 05'
+  - '[846ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[846ms] [zhuhaiuk#011] HU - zhuhai.uk'
+  - '[849ms] [zhuhaiuk#105] FR - zhuhai.uk 05'
+  - '[849ms] [zhuhaiuk#149] SG - zhuhai.uk 37'
+  - '[851ms] [freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
