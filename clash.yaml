@@ -9,7 +9,7 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
 proxies:
-- name: '[free18#072] 🇨🇳_中国_95'
+- name: '[160ms] [free18#072] 🇨🇳_中国_95'
   type: vless
   server: 120.227.1.43
   port: 12528
@@ -17,58 +17,27 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 香港 | HKG 4
-  server: v9.hdacd.com
-  port: 30809
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
+- name: '[185ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - cipher: chacha20-ietf
-  name: '[freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
+  name: '[191ms] [freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8105
-  server: cn02.somethingstranges.com
+  port: 8102
+  server: cn01.somethingstranges.com
   type: ss
-- cipher: chacha20-ietf
-  name: '[freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8104
-  server: cn02.somethingstranges.com
-  type: ss
-- name: '[freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+- name: '[194ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
   password: '123'
   port: 3060
   server: 43.100.43.112
   type: socks5
   username: '123'
-- name: '[freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
-  password: '8888'
-  port: 1080
-  server: 8.210.31.250
-  type: socks5
-  username: '8888'
-- cipher: chacha20-ietf
-  name: '[freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8103
-  server: cn01.somethingstranges.com
-  type: ss
-- name: '[freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+- name: '[204ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
   password: '111'
   port: 11211
   server: 47.243.173.50
@@ -76,7 +45,17 @@ proxies:
   type: socks5
   username: '111'
 - cipher: chacha20-ietf
-  name: '[freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  name: '[224ms] [freeSub#376] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8101
+  server: cn01.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[226ms] [freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -86,28 +65,78 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: '[freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  name: '[226ms] [freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8102
+  port: 8108
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[227ms] [freeSub#010] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[230ms] [freeSub#340] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8106
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[236ms] [freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8105
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[244ms] [freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8103
   server: cn01.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: '[freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  name: '[244ms] [freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8233
+  port: 8232
+  server: cn06.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[258ms] [freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8231
   server: cn06.somethingstranges.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
+  name: '[287ms] [NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -119,33 +148,17 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: '[free18#001] 每天更新，请加电报群防止失联'
-  type: vless
-  server: xiweini.dpdns.org
-  port: 30100
-  uuid: 19bb341c-ee57-4899-b1e7-e9d3ebdf23df
-  servername: xiweini.dpdns.org
-  tls: true
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
 - cipher: chacha20-ietf
-  name: '[freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
+  name: '[301ms] [freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8231
+  port: 8233
   server: cn06.somethingstranges.com
   type: ss
-- name: '[freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: admin
-  port: 5555
-  server: 158.180.91.51
-  type: socks5
-  username: admin
-- name: 🇩🇪 德国 | DEU 3
+- name: '[357ms] 🇩🇪 德国 | DEU 3'
   server: bs.1010101.vip
   port: 2096
   type: vless
@@ -160,8 +173,61 @@ proxies:
     grpc-mode: gun
     grpc-service-name: vless-grpc-reality
   udp: true
+- name: '[360ms] [freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
+- name: '[419ms] 🇩🇪 德国 | DEU 4'
+  server: 18.157.224.206
+  port: 22223
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- name: '[425ms] 🇩🇪 德国 | DEU'
+  server: 18.157.224.206
+  port: 22222
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- name: '[442ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
+  tls: true
+  type: http
+- name: '[446ms] 🇩🇪 德国 | DEU 12'
+  server: 18.157.224.206
+  port: 22224
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- cipher: aes-256-cfb
+  name: '[454ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: amazonskr05
+  port: 443
+  server: 15.237.189.197
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: '[479ms] [freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
 - client-fingerprint: chrome
-  name: '[freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
+  name: '[482ms] [freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
   network: ws
   password: HutaoCloud
   port: 11543
@@ -175,75 +241,540 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /api
-- name: 🇩🇪 德国 | DEU
-  server: 18.157.224.206
-  port: 22222
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  tls: false
-  network: tcp
-  udp: true
+- name: '[489ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
+- name: '[501ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
 - cipher: chacha20-ietf
-  name: '[freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  name: '[550ms] [freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
   password: passwd
   plugin: obfs
   plugin-opts:
     host: 43309-nIao34iu.download.microsoft.com
     mode: http
-  port: 8629
+  port: 8602
   server: cn18.somethingstranges.com
   type: ss
-- name: 🇩🇪 德国 | DEU 12
-  server: 18.157.224.206
-  port: 22224
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  tls: false
-  network: tcp
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: tuning
-  name: '[freeSub#462] ⚪🏳️[📺🎭]_github.com/Ruk1ng0'
-  network: grpc
+- name: '[554ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
   port: 443
-  reality-opts:
-    public-key: xq8_e5PNS7vubb8jzDOtfT2MnppCmzUPqXuDwg1xBm8
-    short-id: 96bb8b53
-  server: 195.63.141.201
-  servername: hartfordmedia.online
+  server: fan.571589.xyz
+  skip-cert-verify: false
   tls: true
-  type: vless
-  udp: true
-  uuid: 4e7eb9d5-022a-4b0a-ba37-2d1be458947b
-  xudp: true
-- name: '[freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  password: '123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- name: '[freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
-  port: 1090
-  server: 121.169.46.116
+  type: http
+  username: null
+- alterId: '2'
+  cipher: auto
+  name: '[559ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
   tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: '[freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- cipher: chacha20-ietf
+  name: '[560ms] [freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8104
+  server: cn02.somethingstranges.com
+  type: ss
+- name: '[574ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: '[freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+- name: '[663ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: qGwNSnw1
+  port: 64218
+  server: 200.225.173.142
+  type: http
+  username: ZJWRqQLE
+- name: '[676ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ESfDSCxpD
+  port: 64462
+  server: 154.219.254.66
+  type: http
+  username: n17sMRE7S
+- name: '[745ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 8889
+  server: 95.211.64.139
+  type: http
+  username: null
+- alterId: 2
+  cipher: auto
+  name: '[794ms] [freeSub#432] 🟠🇮🇪[🤖📺]_github.com/Ruk1ng0'
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '[794ms] [free18#018] 🇩🇪_德国_20'
+  type: vless
+  server: 169.40.42.229
   port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[798ms] [free18#071] 🇩🇪_德国_90'
+  type: vless
+  server: 169.40.42.74
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[805ms] [freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪 德国 | DEU 8
+  username: null
+- name: '[812ms] [freeSub#213] 🟢🇿🇦[🎬📺🎪✨]_github.com/Ruk1n'
+  password: aa
+  port: 89
+  server: 160.124.240.188
+  type: http
+  username: aa
+- name: '[827ms] 🇺🇸 美国 | USA 31'
+  server: 169.40.42.104
+  port: 443
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+  network: tcp
+  udp: true
+- name: '[830ms] [freeSub#127] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[835ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[835ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: qGwNSnw1
+  port: 62768
+  server: 141.133.8.173
+  type: http
+  username: ZJWRqQLE
+- name: '[841ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[845ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[851ms] [freeSub#151] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[852ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[854ms] [free18#017] 🇩🇪_德国_19'
+  type: vless
+  server: 169.40.42.231
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[860ms] [freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+- name: '[864ms] [free18#070] 🇩🇪_德国_87'
+  type: vless
+  server: 169.40.42.89
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[865ms] [NoMoreWalls#206] US_speednode_0141'
+  port: 443
+  server: fan.226278.xyz
+  tls: true
+  type: http
+  udp: true
+- name: '[872ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[880ms] [free18#008] 🇩🇪_德国_8'
+  type: vless
+  server: 169.40.42.35
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: true
+  udp: true
+- name: '[890ms] [freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 31280
+  server: 202.28.194.139
+  type: http
+  username: null
+- name: '[899ms] [free18#015] 🇬🇷_希腊_17'
+  type: vless
+  server: grek.helper-internet.com
+  port: 443
+  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
+  servername: grek.helper-internet.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  skip-cert-verify: true
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: '[906ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: '[910ms] [freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
+  password: qGwNSnw1
+  port: 62902
+  server: 155.212.56.13
+  type: http
+  username: ZJWRqQLE
+- name: '[910ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
+  password: null
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: null
+- name: '[918ms] [freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[932ms] [freeSub#207] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: '[932ms] [free18#027] 🇩🇪_德国_32'
+  type: vless
+  server: 2.26.48.130
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: eu-central.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  skip-cert-verify: true
+  udp: true
+- name: '[933ms] 🇺🇸 美国 | USA 36'
+  server: 169.40.42.90
+  port: 443
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  servername: yahoo.com
+  client-fingerprint: ios
+  network: tcp
+  udp: true
+- name: '[938ms] [freeSub#205] 🔴🇮🇩[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+- name: '[956ms] 🇺🇸 美国 | USA 33'
+  server: 154.17.4.70
+  port: 13779
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  tls: true
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  servername: tesla.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: '[957ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[968ms] [freeSub#201] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+- name: '[972ms] [freeSub#254] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: '[984ms] [freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[990ms] [free18#030] 🇺🇸_美国_36'
+  type: vless
+  server: 31.76.69.40
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: eu-central.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  skip-cert-verify: true
+  udp: true
+- name: '[998ms] [freeSub#204] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: '[1010ms] 🇺🇸 美国 | USA 9'
+  server: 23.185.200.135
+  port: 57841
+  type: ss
+  cipher: aes-128-gcm
+  password: xo6k84l7b00n2hJp
+  udp: true
+- name: '[1017ms] [freeSub#111] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1018ms] [freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[1019ms] [freeSub#270] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ''
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[1021ms] [freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1023ms] [freeSub#229] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 193.176.84.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1023ms] [freeSub#279] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ''
+  port: 9002
+  server: 156.146.59.42
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[1026ms] [freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[1028ms] [freeSub#283] 🟢🇲🇽[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 443
+  server: 45.134.9.41
+  skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-240d6105b6ef86f0.apache-iv.com
+  tls: true
+  type: http
+- name: '[1029ms] [freeSub#468] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 156.146.59.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1030ms] [freeSub#239] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[1031ms] [freeSub#273] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.9
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[1033ms] [freeSub#486] 🔴🇫🇮[📺]_github.com/Ruk1ng00'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: a91045bc
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+  xudp: true
+- name: '[1035ms] [freeSub#274] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[1036ms] [freeSub#206] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1041ms] 🇩🇪 德国 | DEU 8'
   server: 94.237.91.161
   port: 3389
   type: vless
@@ -258,593 +789,7 @@ proxies:
       Host:
       - zula.ir
   udp: true
-- cipher: chacha20-ietf
-  name: '[freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8108
-  server: cn02.somethingstranges.com
-  type: ss
-- name: '[freeSub#439] ⚪🏳️_github.com/Ruk1ng001_1'
-  password: Og
-  port: 8443
-  server: 112.28.149.152
-  type: socks5
-  udp: true
-  username: Og
-- name: 🇲🇾 马来西亚 | MYS
-  server: 205.186.64.37
-  port: 13779
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  servername: tesla.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: '[freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: qGwNSnw1
-  port: 64218
-  server: 200.225.173.142
-  type: http
-  username: ZJWRqQLE
-- name: '[freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
-  password: null
-  port: 8888
-  server: 95.211.64.139
-  type: http
-  username: null
-- name: '[freeSub#174] 🟢🇸🇨[🎭]_github.com/Ruk1ng00'
-  password: None
-  port: 1080
-  server: 27.155.93.29
-  type: http
-  username: null
-- cipher: chacha20-ietf
-  name: '[freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8232
-  server: cn06.somethingstranges.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: '[freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🇺🇸 美国 | USA 33
-  server: 154.17.4.70
-  port: 13779
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  servername: tesla.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- cipher: chacha20-ietf
-  name: '[freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8602
-  server: cn18.somethingstranges.com
-  type: ss
-- name: 未知 SS-294 | free-nodes
-  server: 194.87.47.204
-  port: 10901
-  type: ss
-  cipher: aes-256-gcm
-  password: d1fa2f4b98a38bc8
-- name: '[freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
-- name: '[freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
-- name: '[freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: qGwNSnw1
-  port: 63124
-  server: 45.195.184.106
-  type: http
-  username: ZJWRqQLE
-- name: '[freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#103] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[free18#070] 🇩🇪_德国_87'
-  type: vless
-  server: 169.40.42.89
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#121] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-- name: 🇺🇸 美国 | USA 36
-  server: 169.40.42.90
-  port: 443
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  servername: yahoo.com
-  client-fingerprint: ios
-  network: tcp
-  udp: true
-- alterId: '2'
-  cipher: auto
-  name: '[freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '[freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[freeSub#167] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪 德国 | DEU 17
-  server: ger1.nihaovpn.ru
-  port: 443
-  type: vless
-  uuid: d31aefb3-775b-4e87-a093-a4677addf10a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 3EwukQs0ows0H4l2atTgz_Mo5SV-v5p14D4zfA41tU4
-    short-id: c010293d0bafac
-  servername: stackoverflow.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: '[freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#157] 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 8888
-  server: 37.59.125.131
-  type: http
-- name: '[free18#015] 🇬🇷_希腊_17'
-  type: vless
-  server: grek.helper-internet.com
-  port: 443
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-  servername: grek.helper-internet.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  skip-cert-verify: true
-  udp: true
-- name: '[free18#071] 🇩🇪_德国_90'
-  type: vless
-  server: 169.40.42.74
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
-  password: null
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
-  username: null
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: '12306'
-  name: '[freeSub#065] 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  network: grpc
-  port: 443
-  server: hk04.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
-  servername: www.12306.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f018361c-3d66-4635-80c9-22be36b70ac4
-- name: '[freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: '[freeSub#208] 🔴🇪🇸[🎪]_github.com/Ruk1ng00'
-  port: 10006
-  server: 66.163.118.99
-  type: http
-- name: '[freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#325] 🔴🇭🇰[🎪]_github.com/Ruk1ng00'
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
-- name: '[freeSub#182] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: '[free18#017] 🇩🇪_德国_19'
-  type: vless
-  server: 169.40.42.231
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 31280
-  server: 202.28.194.139
-  type: http
-  username: null
-- name: '[freeSub#178] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ''
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: qGwNSnw1
-  port: 62768
-  server: 141.133.8.173
-  type: http
-  username: ZJWRqQLE
-- name: '[freeSub#402] 🔴🇷🇺_github.com/Ruk1ng001_b'
-  password: null
-  port: 4050
-  server: 109.94.1.23
-  type: http
-  username: null
-- name: '[freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
-  password: qGwNSnw1
-  port: 62902
-  server: 155.212.56.13
-  type: http
-  username: ZJWRqQLE
-- name: '[free18#008] 🇩🇪_德国_8'
-  type: vless
-  server: 169.40.42.35
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: true
-  udp: true
-- name: '[freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[freeSub#312] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: 'null'
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[freeSub#289] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#287] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.8
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ''
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[freeSub#242] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ''
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[freeSub#296] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#400] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ''
-  port: 9002
-  server: 156.146.59.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[freeSub#380] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 156.146.59.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#253] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: ''
-  port: 9002
-  server: 156.146.59.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  password: null
-  port: 8889
-  server: 95.211.64.139
-  type: http
-  username: null
-- name: '[free18#094] 🇫🇮_芬兰_128'
+- name: '[1047ms] [free18#094] 🇫🇮_芬兰_128'
   type: vless
   server: 65.109.12.58
   port: 2053
@@ -858,9 +803,78 @@ proxies:
       Host: forfreeuse.rtqa.ru
   skip-cert-verify: true
   udp: true
-- name: '[free18#182] 🇵🇱_波兰_339'
+- name: '[1051ms] [freeSub#303] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1059ms] [freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1059ms] [freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[1060ms] [freeSub#313] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: None
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1062ms] [freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[1065ms] [freeSub#247] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: null
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[1065ms] [freeSub#309] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  port: 9002
+  server: 84.239.49.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[1065ms] [free18#059] 🇳🇱_荷兰_74'
   type: vless
-  server: 31.133.0.133
+  server: neth6.lckdwn.ru
+  port: 8443
+  uuid: 14da77da-4fb3-4e49-ac4f-7881ea19b267
+  servername: neth6.lckdwn.ru
+  tls: true
+  client-fingerprint: edge
+  skip-cert-verify: true
+  udp: true
+- name: '[1067ms] [freeSub#246] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ''
+  port: 9002
+  server: 156.146.59.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[1067ms] [free18#189] 🇵🇱_波兰_349'
+  type: vless
+  server: 31.133.0.103
   port: 2053
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
   network: ws
@@ -872,10 +886,18 @@ proxies:
       Host: forfreeuse.rtqa.ru
   skip-cert-verify: true
   udp: true
-- name: '[freeSub#162] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+- name: '[1069ms] [freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  password: ''
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[1069ms] [freeSub#234] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   password: None
   port: 9002
-  server: 193.176.84.29
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
@@ -885,209 +907,209 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - '[free18#072] 🇨🇳_中国_95'
-  - 🇭🇰 香港 | HKG 4
-  - '[freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
-  - '[freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
-  - '[freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
-  - '[free18#001] 每天更新，请加电报群防止失联'
-  - '[freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
-  - '[freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 3
-  - '[freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
-  - 🇩🇪 德国 | DEU
-  - '[freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 12
-  - '[freeSub#462] ⚪🏳️[📺🎭]_github.com/Ruk1ng0'
-  - '[freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 8
-  - '[freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
-  - '[freeSub#439] ⚪🏳️_github.com/Ruk1ng001_1'
-  - 🇲🇾 马来西亚 | MYS
-  - '[freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#174] 🟢🇸🇨[🎭]_github.com/Ruk1ng00'
-  - '[freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
-  - 🇺🇸 美国 | USA 33
-  - '[freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
-  - 未知 SS-294 | free-nodes
-  - '[freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  - '[freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#103] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#070] 🇩🇪_德国_87'
-  - '[freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#121] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇺🇸 美国 | USA 36
-  - '[freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
-  - '[freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#167] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 17
-  - '[freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#157] 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#015] 🇬🇷_希腊_17'
-  - '[free18#071] 🇩🇪_德国_90'
-  - '[freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
-  - '[freeSub#065] 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  - '[freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#208] 🔴🇪🇸[🎪]_github.com/Ruk1ng00'
-  - '[freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#325] 🔴🇭🇰[🎪]_github.com/Ruk1ng00'
-  - '[freeSub#182] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#017] 🇩🇪_德国_19'
-  - '[freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#178] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#402] 🔴🇷🇺_github.com/Ruk1ng001_b'
-  - '[freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
-  - '[free18#008] 🇩🇪_德国_8'
-  - '[freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#312] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#289] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#287] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#242] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#296] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#400] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#380] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#253] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#094] 🇫🇮_芬兰_128'
-  - '[free18#182] 🇵🇱_波兰_339'
-  - '[freeSub#162] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[160ms] [free18#072] 🇨🇳_中国_95'
+  - '[185ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  - '[191ms] [freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[194ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[204ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[224ms] [freeSub#376] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[226ms] [freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[226ms] [freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
+  - '[227ms] [freeSub#010] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
+  - '[230ms] [freeSub#340] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[236ms] [freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
+  - '[244ms] [freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[244ms] [freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[258ms] [freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
+  - '[287ms] [NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
+  - '[301ms] [freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[357ms] 🇩🇪 德国 | DEU 3'
+  - '[360ms] [freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[419ms] 🇩🇪 德国 | DEU 4'
+  - '[425ms] 🇩🇪 德国 | DEU'
+  - '[442ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[446ms] 🇩🇪 德国 | DEU 12'
+  - '[454ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[479ms] [freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[482ms] [freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
+  - '[489ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  - '[501ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[550ms] [freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
+  - '[554ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[559ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  - '[560ms] [freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[574ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[663ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[676ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[745ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[794ms] [freeSub#432] 🟠🇮🇪[🤖📺]_github.com/Ruk1ng0'
+  - '[794ms] [free18#018] 🇩🇪_德国_20'
+  - '[798ms] [free18#071] 🇩🇪_德国_90'
+  - '[805ms] [freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[812ms] [freeSub#213] 🟢🇿🇦[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[827ms] 🇺🇸 美国 | USA 31'
+  - '[830ms] [freeSub#127] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[835ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[835ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[841ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[845ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[851ms] [freeSub#151] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[852ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[854ms] [free18#017] 🇩🇪_德国_19'
+  - '[860ms] [freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[864ms] [free18#070] 🇩🇪_德国_87'
+  - '[865ms] [NoMoreWalls#206] US_speednode_0141'
+  - '[872ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[880ms] [free18#008] 🇩🇪_德国_8'
+  - '[890ms] [freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[899ms] [free18#015] 🇬🇷_希腊_17'
+  - '[906ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  - '[910ms] [freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
+  - '[910ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
+  - '[918ms] [freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[932ms] [freeSub#207] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[932ms] [free18#027] 🇩🇪_德国_32'
+  - '[933ms] 🇺🇸 美国 | USA 36'
+  - '[938ms] [freeSub#205] 🔴🇮🇩[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[956ms] 🇺🇸 美国 | USA 33'
+  - '[957ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[968ms] [freeSub#201] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[972ms] [freeSub#254] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[984ms] [freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[990ms] [free18#030] 🇺🇸_美国_36'
+  - '[998ms] [freeSub#204] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1010ms] 🇺🇸 美国 | USA 9'
+  - '[1017ms] [freeSub#111] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1018ms] [freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1019ms] [freeSub#270] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1021ms] [freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1023ms] [freeSub#229] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1023ms] [freeSub#279] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1026ms] [freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1028ms] [freeSub#283] 🟢🇲🇽[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1029ms] [freeSub#468] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1030ms] [freeSub#239] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1031ms] [freeSub#273] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1033ms] [freeSub#486] 🔴🇫🇮[📺]_github.com/Ruk1ng00'
+  - '[1035ms] [freeSub#274] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1036ms] [freeSub#206] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1041ms] 🇩🇪 德国 | DEU 8'
+  - '[1047ms] [free18#094] 🇫🇮_芬兰_128'
+  - '[1051ms] [freeSub#303] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1059ms] [freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1059ms] [freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1060ms] [freeSub#313] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1062ms] [freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [freeSub#247] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [freeSub#309] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [free18#059] 🇳🇱_荷兰_74'
+  - '[1067ms] [freeSub#246] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1067ms] [free18#189] 🇵🇱_波兰_349'
+  - '[1069ms] [freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1069ms] [freeSub#234] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - '[free18#072] 🇨🇳_中国_95'
-  - 🇭🇰 香港 | HKG 4
-  - '[freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
-  - '[freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[freeSub#364] 🟠🇭🇰[📺]_github.com/Ruk1ng00'
-  - '[freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
-  - '[freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
-  - '[free18#001] 每天更新，请加电报群防止失联'
-  - '[freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
-  - '[freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 3
-  - '[freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
-  - 🇩🇪 德国 | DEU
-  - '[freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 12
-  - '[freeSub#462] ⚪🏳️[📺🎭]_github.com/Ruk1ng0'
-  - '[freeSub#064] 🟠🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#440] 🔴🇰🇷[🤖📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 8
-  - '[freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
-  - '[freeSub#439] ⚪🏳️_github.com/Ruk1ng001_1'
-  - 🇲🇾 马来西亚 | MYS
-  - '[freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#363] 🔴🇳🇱[🎬📺🎭🎪]_github.com/Ruk1n'
-  - '[freeSub#174] 🟢🇸🇨[🎭]_github.com/Ruk1ng00'
-  - '[freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
-  - 🇺🇸 美国 | USA 33
-  - '[freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
-  - 未知 SS-294 | free-nodes
-  - '[freeSub#137] 🟠🇭🇰[📺🎭📦🔍]_github.com/Ruk1n'
-  - '[freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#298] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#176] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#103] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#070] 🇩🇪_德国_87'
-  - '[freeSub#129] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#109] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#110] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#107] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#135] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#121] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇺🇸 美国 | USA 36
-  - '[freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
-  - '[freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#161] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#167] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#149] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - 🇩🇪 德国 | DEU 17
-  - '[freeSub#104] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#157] 🔴🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#015] 🇬🇷_希腊_17'
-  - '[free18#071] 🇩🇪_德国_90'
-  - '[freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
-  - '[freeSub#065] 🟢🇭🇰[🎬🧠📺🎭]_github.com/Ruk1n'
-  - '[freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#208] 🔴🇪🇸[🎪]_github.com/Ruk1ng00'
-  - '[freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#325] 🔴🇭🇰[🎪]_github.com/Ruk1ng00'
-  - '[freeSub#182] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#017] 🇩🇪_德国_19'
-  - '[freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#178] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#402] 🔴🇷🇺_github.com/Ruk1ng001_b'
-  - '[freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
-  - '[free18#008] 🇩🇪_德国_8'
-  - '[freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#312] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#289] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#287] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#242] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#296] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#400] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#380] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#253] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
-  - '[free18#094] 🇫🇮_芬兰_128'
-  - '[free18#182] 🇵🇱_波兰_339'
-  - '[freeSub#162] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[160ms] [free18#072] 🇨🇳_中国_95'
+  - '[185ms] [freeSub#477] 🔴🇭🇰[📺🎪]_github.com/Ruk1ng0'
+  - '[191ms] [freeSub#231] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[194ms] [freeSub#472] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[204ms] [freeSub#421] 🟠🇭🇰[📺🔍]_github.com/Ruk1ng0'
+  - '[224ms] [freeSub#376] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[226ms] [freeSub#006] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[226ms] [freeSub#027] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
+  - '[227ms] [freeSub#010] 🟢🇭🇰[🎬🤖🧠📺]_github.com/Ruk1n'
+  - '[230ms] [freeSub#340] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[236ms] [freeSub#009] 🟢🇭🇰[🤖🧠📺🎭]_github.com/Ruk1n'
+  - '[244ms] [freeSub#005] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[244ms] [freeSub#012] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[258ms] [freeSub#013] 🟢🇵🇭[🤖🎪✨🎞️]_github.com/Ruk1'
+  - '[287ms] [NoMoreWalls#136] 🇭🇰HK_1|5.6MB/s'
+  - '[301ms] [freeSub#016] 🟢🇵🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[357ms] 🇩🇪 德国 | DEU 3'
+  - '[360ms] [freeSub#053] ⚪🏳️[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[419ms] 🇩🇪 德国 | DEU 4'
+  - '[425ms] 🇩🇪 德国 | DEU'
+  - '[442ms] [freeSub#017] 🟠🇭🇰[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[446ms] 🇩🇪 德国 | DEU 12'
+  - '[454ms] [freeSub#063] 🟠🇫🇷[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[479ms] [freeSub#074] 🟢🇦🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[482ms] [freeSub#062] ⚪🏳️_github.com/Ruk1ng001_7'
+  - '[489ms] [freeSub#019] 🟠🇭🇰[📺✨]_github.com/Ruk1ng0'
+  - '[501ms] [freeSub#365] 🔴🇯🇵[🤖📺🎭🎪]_github.com/Ruk1n'
+  - '[550ms] [freeSub#061] 🟢🇰🇷[🎬📺🎭🎪]_github.com/Ruk1n'
+  - '[554ms] [freeSub#100] 🔴🇯🇵[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[559ms] [freeSub#218] 🟠🇯🇵[🤖📺]_github.com/Ruk1ng0'
+  - '[560ms] [freeSub#008] 🟢🇭🇰[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[574ms] [freeSub#084] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[663ms] [freeSub#220] 🟠🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[676ms] [freeSub#384] 🟠🇸🇬[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[745ms] [freeSub#083] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[794ms] [freeSub#432] 🟠🇮🇪[🤖📺]_github.com/Ruk1ng0'
+  - '[794ms] [free18#018] 🇩🇪_德国_20'
+  - '[798ms] [free18#071] 🇩🇪_德国_90'
+  - '[805ms] [freeSub#237] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[812ms] [freeSub#213] 🟢🇿🇦[🎬📺🎪✨]_github.com/Ruk1n'
+  - '[827ms] 🇺🇸 美国 | USA 31'
+  - '[830ms] [freeSub#127] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[835ms] [freeSub#183] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[835ms] [freeSub#196] 🟢🇸🇨[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[841ms] [freeSub#170] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[845ms] [freeSub#150] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[851ms] [freeSub#151] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[852ms] [freeSub#146] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[854ms] [free18#017] 🇩🇪_德国_19'
+  - '[860ms] [freeSub#158] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[864ms] [free18#070] 🇩🇪_德国_87'
+  - '[865ms] [NoMoreWalls#206] US_speednode_0141'
+  - '[872ms] [freeSub#126] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[880ms] [free18#008] 🇩🇪_德国_8'
+  - '[890ms] [freeSub#317] 🔴🇹🇭[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[899ms] [free18#015] 🇬🇷_希腊_17'
+  - '[906ms] [freeSub#299] ⚪🏳️_github.com/Ruk1ng001_5'
+  - '[910ms] [freeSub#393] 🔴🇦🇱[🤖✨]_github.com/Ruk1ng0'
+  - '[910ms] [freeSub#429] 🔴🇰🇷[🤖📺🎪✨]_github.com/Ruk1n'
+  - '[918ms] [freeSub#171] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[932ms] [freeSub#207] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[932ms] [free18#027] 🇩🇪_德国_32'
+  - '[933ms] 🇺🇸 美国 | USA 36'
+  - '[938ms] [freeSub#205] 🔴🇮🇩[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[956ms] 🇺🇸 美国 | USA 33'
+  - '[957ms] [freeSub#155] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[968ms] [freeSub#201] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[972ms] [freeSub#254] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[984ms] [freeSub#117] 🔴🇩🇪[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[990ms] [free18#030] 🇺🇸_美国_36'
+  - '[998ms] [freeSub#204] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1010ms] 🇺🇸 美国 | USA 9'
+  - '[1017ms] [freeSub#111] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1018ms] [freeSub#268] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1019ms] [freeSub#270] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1021ms] [freeSub#316] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1023ms] [freeSub#229] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1023ms] [freeSub#279] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1026ms] [freeSub#251] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1028ms] [freeSub#283] 🟢🇲🇽[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1029ms] [freeSub#468] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1030ms] [freeSub#239] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1031ms] [freeSub#273] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1033ms] [freeSub#486] 🔴🇫🇮[📺]_github.com/Ruk1ng00'
+  - '[1035ms] [freeSub#274] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1036ms] [freeSub#206] 🔴🇳🇱[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1041ms] 🇩🇪 德国 | DEU 8'
+  - '[1047ms] [free18#094] 🇫🇮_芬兰_128'
+  - '[1051ms] [freeSub#303] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1059ms] [freeSub#258] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1059ms] [freeSub#286] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1060ms] [freeSub#313] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1062ms] [freeSub#236] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [freeSub#247] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [freeSub#309] 🔴🇷🇴[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1065ms] [free18#059] 🇳🇱_荷兰_74'
+  - '[1067ms] [freeSub#246] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1067ms] [free18#189] 🇵🇱_波兰_349'
+  - '[1069ms] [freeSub#233] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
+  - '[1069ms] [freeSub#234] 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1n'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
